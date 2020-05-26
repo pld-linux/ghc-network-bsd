@@ -1,0 +1,11 @@
+--- network-bsd-2.8.1.0/network-bsd.cabal~	2019-01-20 00:53:20.000000000 +0100
++++ network-bsd-2.8.1.0/network-bsd.cabal	2020-05-26 23:25:43.133977102 +0200
+@@ -75,7 +75,7 @@
+                -- with the bounds to avoid leaking through API
+                -- changes that aren't reflected in `network-bsd`'s
+                -- API version.
+-               , network >= 3.0.0.0 && < 3.0.1
++               , network >= 3.0.0.0
+   build-tools: hsc2hs >= 0.67 && < 0.69
+   ghc-options: -Wall
+ 
