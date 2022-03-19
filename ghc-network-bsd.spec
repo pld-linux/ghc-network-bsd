@@ -6,7 +6,7 @@
 Summary:	POSIX network database (<netdb.h>) API
 Name:		ghc-%{pkgname}
 Version:	2.8.1.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages
 #Source0Download: http://hackage.haskell.org/package/network-bsd
